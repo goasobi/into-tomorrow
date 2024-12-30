@@ -1,0 +1,12 @@
+gui:
+  language: "en"
+  theme:
+    selectedLineBgColor:
+      - "#fff8c5"
+    selectedRangeBgColor:
+      - "#fff8c5"
+
+git:
+  paging:
+    colorArg: always
+    pager: delta --light --paging=never

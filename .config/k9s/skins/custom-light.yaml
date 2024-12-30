@@ -1,0 +1,101 @@
+# Styles...
+foreground: &foreground "#000000"
+background: &background "#ffffff"
+current_line: &current_line "#000000"
+border: &border "#99994c"
+comment: &comment "#303030"
+cyan: &cyan "#000000"
+green: &green "#000000"
+yellow: &yellow "#000000"
+orange: &orange "#000000"
+magenta: &magenta "#000000"
+blue: &blue "#1d3ccf"
+red: &red "#a50000"
+
+# Skin...
+k9s:
+  body:
+    fgColor: *foreground
+    bgColor: *background
+    logoColor: *blue
+  prompt:
+    fgColor: *foreground
+    bgColor: *background
+    suggestColor: *orange
+  info:
+    fgColor: *magenta
+    sectionColor: *foreground
+  dialog:
+    fgColor: *foreground
+    bgColor: *background
+    buttonFgColor: *foreground
+    buttonBgColor: *magenta
+    buttonFocusFgColor: white
+    buttonFocusBgColor: *cyan
+    labelFgColor: *orange
+    fieldFgColor: *foreground
+  frame:
+    border:
+      fgColor: *border
+      focusColor: *foreground
+    menu:
+      fgColor: *foreground
+      keyColor: *magenta
+      numKeyColor: *magenta
+    crumbs:
+      fgColor: white
+      bgColor: *cyan
+      activeColor: *yellow
+    status:
+      newColor: *cyan
+      modifyColor: *blue
+      addColor: *green
+      errorColor: *red
+      highlightColor: *orange
+      killColor: *comment
+      completedColor: *comment
+    title:
+      fgColor: *foreground
+      bgColor: *background
+      highlightColor: *blue
+      counterColor: *magenta
+      filterColor: *magenta
+  views:
+    charts:
+      bgColor: *background
+      chartBgColor: "#737373"
+      dialBgColor: "#737373"
+      defaultDialColors:
+        - *blue
+        - *red
+      defaultChartColors:
+        - *blue
+        - *red
+    table:
+      fgColor: *foreground
+      bgColor: *background
+      cursorFgColor: white
+      cursorBgColor: black
+      markColor: darkgoldenrod
+      header:
+        fgColor: *foreground
+        bgColor: *background
+        sorterColor: *cyan
+    xray:
+      fgColor: *foreground
+      bgColor: *background
+      cursorColor: *current_line
+      graphicColor: *blue
+      showIcons: false
+    yaml:
+      keyColor: *magenta
+      colonColor: *blue
+      valueColor: *foreground
+    logs:
+      fgColor: *foreground
+      bgColor: *background
+      indicator:
+        fgColor: *foreground
+        bgColor: "#fcfcce"
+        toggleOnColor: *magenta
+        toggleOffColor: *blue

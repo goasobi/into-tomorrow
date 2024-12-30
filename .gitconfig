@@ -1,0 +1,16 @@
+[core]
+    editor = nvim
+    pager = delta
+
+[fetch]
+	prune = true
+
+[interactive]
+    diffFilter = delta --color-only
+
+[delta]
+    navigate = true
+    light = true
+
+[pull]
+    rebase = false

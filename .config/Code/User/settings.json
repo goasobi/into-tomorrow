@@ -1,0 +1,74 @@
+{
+    "debug.console.fontSize": 13,
+    "editor.autoClosingBrackets": "never",
+    "editor.accessibilitySupport": "off",
+    "editor.cursorStyle": "block",
+    "editor.detectIndentation": false,
+    "editor.fontFamily": "'Roboto Mono', 'Source Han Mono', 'Symbols Nerd Font Mono'",
+    "editor.fontLigatures": false,
+    "editor.fontSize": 13,
+    "editor.formatOnSave": true,
+    "editor.guides.indentation": false,
+    "editor.inlineSuggest.enabled": false,
+    "editor.lineNumbers": "off",
+    "editor.lineHeight": 21,
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "none",
+    "editor.semanticHighlighting.enabled": true,
+    "editor.quickSuggestions": {
+        "other": false,
+        "comments": false,
+        "strings": false
+    },
+    "errorLens.gutterIconsEnabled": true,
+    "errorLens.messageEnabled": false,
+    "extensions.autoUpdate": false,
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "git.enabled": false,
+    "go.toolsManagement.autoUpdate": true,
+    "go.lintTool": "golangci-lint",
+    "go.lintFlags": [
+        "--fast"
+    ],
+    "git.openRepositoryInParentFolders": "always",
+    "rubyLsp.rubyVersionManager": {
+        "identifier": "asdf"
+    },
+    "telemetry.telemetryLevel": "off",
+    "terminal.integrated.commandsToSkipShell": [
+        "-workbench.action.quickOpen"
+    ],
+    "terminal.integrated.env.osx": {
+        "PATH": ""
+    },
+    "terminal.integrated.fontFamily": "'Roboto Mono', 'Source Han Mono', 'Symbols Nerd Font Mono'",
+    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.lineHeight": 1.2,
+    "vscode-neovim.compositeKeys": {
+        "jk": {
+            "command": "vscode-neovim.escape"
+        }
+    },
+    "vscode-neovim.neovimExecutablePaths.darwin": "/usr/local/bin/nvim",
+    "vscode-neovim.neovimExecutablePaths.linux": "/usr/local/bin/nvim",
+    "workbench.colorTheme": "Visual Studio Light",
+    "workbench.editor.enablePreviewFromQuickOpen": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "[go]": {
+        "editor.tabSize": 8
+    },
+    "[html]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}

@@ -1,0 +1,7 @@
+gui:
+  language: "en"
+  theme:
+    selectedLineBgColor:
+      - "#fff8c5"
+
+reporting: "off"
